@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Spam Keys - Nova Productions</title>
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Spam Keys!</h1>
+      <p>Created by <i><a href="https://novapro.net/">Nova Productions</a></i></p>
+    </div>
+      <hr class="rounded">
+      <p class="standardP"><b>Visualize your spamming in a new way.</b></p>
+
+    <p class="standardP"><b><u>You can start typing!</u></b> It will tell you which keys you press most while spamming! At the bottom of the page, you can see what you typed in!</p>
+    <p class="standardP"><b><u>For software keyboards:</u></b> You must type in the box!</p>
+    <p class="standardP"><b><u>For hardware keyboards:</u></b> You can type anywhere on the page!</p>
+    <p class="standardP">You can rank all the characters based on how many times you've pressed them!</p>
+    <hr class="rounded">
+    <div id="totalkeys" class="totalkeys"></div>
+    <hr class="rounded">
+
+    <p id="log" class="log standardP">Your spam: </p>
+    <div class="mainTyping">
+      <div class="messageType">
+      <input type="text" id="messageBar" placeholder="Spam away!">
+    </div>
+    </div>
+    <hr class="rounded">
+    <div class="sortingDiv">
+      <a onclick="sort()">Sort By Rank!</a>
+    </div>
+    <hr class="rounded">
+    <div id="allRanked" class="allRanked"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
